@@ -22,6 +22,15 @@ A powerful **FAQ Chatbot** that uses NLP and machine learning to intelligently m
 
 ✅ **Fast & Lightweight** - Built with Flask, minimal dependencies
 
+## 🎯 Live Demo
+
+**Try the chatbot online (coming soon after deployment):**
+- 🌐 **Live URL:** Will be displayed here after deployment to Render.com
+- 📱 **Mobile Friendly:** Works on desktop, tablet, and mobile
+- ⚡ **Real-time:** Get instant FAQ answers
+
+> **Want to test locally?** Follow the Quick Start section below!
+
 ## 📋 Project Structure
 
 ```
@@ -254,6 +263,26 @@ pip install -r requirements.txt --force-reinstall
 ```
 
 ## 🚀 Deployment
+
+### Deploy to Render.com (Recommended - FREE) ⭐
+
+**Easiest way to deploy and get a live URL!**
+
+1. **Go to:** https://render.com
+2. **Sign up** with your GitHub account
+3. **Click "New +"** → **"Web Service"**
+4. **Select your repository:** `krishnaveer78/faq-chatbot`
+5. **Fill in these details:**
+   - **Name:** `faq-chatbot`
+   - **Environment:** `Python 3`
+   - **Build command:** `pip install -r requirements.txt`
+   - **Start command:** `gunicorn app.main:app`
+6. **Click "Create Web Service"**
+7. **Wait 5 minutes** ✅ Your chatbot is live!
+
+**Your live URL will be:** `https://faq-chatbot.onrender.com` (or similar)
+
+---
 
 ### Deploy to Heroku
 
