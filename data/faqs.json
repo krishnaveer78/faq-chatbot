@@ -1,0 +1,79 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What is your return policy?",
+      "answer": "We offer a 30-day return policy for all products. Items must be in original condition with all packaging. To initiate a return, contact our customer service team."
+    },
+    {
+      "id": 2,
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping typically takes 5-7 business days. Express shipping is available for 2-3 business days delivery. International orders may take 10-15 business days."
+    },
+    {
+      "id": 3,
+      "question": "Do you offer free shipping?",
+      "answer": "Yes, we offer free shipping on orders over $50. For orders under $50, standard shipping is $5.99 and express shipping is $12.99."
+    },
+    {
+      "id": 4,
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay. All payments are secured with SSL encryption."
+    },
+    {
+      "id": 5,
+      "question": "How do I track my order?",
+      "answer": "You'll receive a tracking number via email once your order ships. You can use this number to track your package on our website or directly on the shipping carrier's website."
+    },
+    {
+      "id": 6,
+      "question": "Can I cancel my order?",
+      "answer": "You can cancel your order within 24 hours of purchase. After that, the order enters the fulfillment process and cannot be cancelled. Contact support immediately if you need to cancel."
+    },
+    {
+      "id": 7,
+      "question": "Do you have a warranty?",
+      "answer": "Most of our products come with a 1-year manufacturer warranty covering defects in materials and workmanship. Extended warranties are available for purchase at checkout."
+    },
+    {
+      "id": 8,
+      "question": "How do I contact customer support?",
+      "answer": "You can reach our customer support team via email at support@example.com, phone at 1-800-123-4567, or live chat on our website. We're available Monday-Friday, 9am-6pm EST."
+    },
+    {
+      "id": 9,
+      "question": "Are your products eco-friendly?",
+      "answer": "We're committed to sustainability. Many of our products are made from recycled materials, and all our packaging is recyclable or biodegradable."
+    },
+    {
+      "id": 10,
+      "question": "Do you offer bulk discounts?",
+      "answer": "Yes, we offer volume discounts for bulk orders. For orders of 20+ items, contact our sales team at sales@example.com for a custom quote."
+    },
+    {
+      "id": 11,
+      "question": "What is your refund process?",
+      "answer": "After we receive your return, we'll inspect the item and process your refund within 5-7 business days. Refunds are issued to the original payment method."
+    },
+    {
+      "id": 12,
+      "question": "Do you ship internationally?",
+      "answer": "Yes, we ship to over 150 countries worldwide. International shipping costs and delivery times vary by location. Calculate shipping costs at checkout."
+    },
+    {
+      "id": 13,
+      "question": "Is my personal data secure?",
+      "answer": "Yes, we use industry-standard encryption and security protocols to protect your personal and payment information. We never sell your data to third parties."
+    },
+    {
+      "id": 14,
+      "question": "How often do you restock items?",
+      "answer": "We restock popular items weekly. If an item is out of stock, you can sign up for email notifications to be alerted when it's back in stock."
+    },
+    {
+      "id": 15,
+      "question": "Do you offer gift cards?",
+      "answer": "Yes, we offer digital and physical gift cards in various denominations. They never expire and can be used for any purchase on our website."
+    }
+  ]
+}
