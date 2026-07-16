@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FAQ chatbot website hosted on GitHub Pages" />
+    <title>FAQ Chatbot Assistant</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🤖 FAQ Chatbot Assistant</h1>
+            <p>Ask questions and get instant answers from our knowledge base.</p>
+        </header>
+
+        <main class="main-content">
+            <section class="chat-section">
+                <div class="chat-box" id="chatBox">
+                    <div class="message bot-message">
+                        <p>Hi! 👋 I’m your FAQ assistant. Ask me any question and I’ll help you find the answer.</p>
+                    </div>
+                </div>
+
+                <div class="input-section">
+                    <form id="questionForm">
+                        <div class="input-wrapper">
+                            <input id="userInput" type="text" placeholder="Type your question here..." required />
+                            <button id="sendBtn" type="submit">Send</button>
+                        </div>
+                    </form>
+                    <button id="clearHistoryBtn" type="button" class="secondary-btn">Clear History</button>
+                </div>
+            </section>
+
+            <aside class="info-section">
+                <div class="info-panel">
+                    <h3>📚 Browse FAQs</h3>
+                    <div id="faqList" class="faq-list">
+                        <p class="loading">Loading FAQs...</p>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <div id="detailModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn" aria-label="Close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalBody"></p>
+            <p id="modalConfidence" class="confidence-badge"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+:root {
+    color-scheme: light;
+    --primary: #4f46e5;
+    --primary-dark: #3730a3;
+    --bg: #f3f4f6;
+    --card: #ffffff;
+    --border: #e5e7eb;
+    --text: #111827;
+    --muted: #6b7280;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #eef2ff 0%, #f8fafc 100%);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: 28px 24px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.header p {
+    opacity: 0.95;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1.4fr 0.8fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.chat-section,
+.info-panel {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.chat-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 560px;
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 14px;
+}
+
+.message {
+    margin-bottom: 12px;
+}
+
+.message p {
+    display: inline-block;
+    padding: 12px 14px;
+    border-radius: 10px;
+    line-height: 1.5;
+    max-width: 85%;
+}
+
+.bot-message p {
+    background: #e0f2fe;
+    color: #075985;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.user-message p {
+    background: var(--primary);
+    color: white;
+}
+
+.message-info {
+    margin-top: 6px;
+    font-size: 0.85rem;
+    color: var(--muted);
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+#userInput {
+    flex: 1;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#sendBtn,
+.secondary-btn {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 16px;
+    background: var(--primary);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.secondary-btn {
+    background: #f3f4f6;
+    color: var(--text);
+    border: 1px solid var(--border);
+}
+
+#sendBtn:hover,
+.secondary-btn:hover {
+    opacity: 0.95;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.faq-item {
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+}
+
+.faq-item:hover {
+    border-color: var(--primary);
+}
+
+.faq-item-question {
+    font-weight: 600;
+}
+
+.faq-item-id {
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 20px;
+}
+
+.modal-content {
+    background: white;
+    max-width: 640px;
+    margin: 80px auto;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    margin-bottom: 10px;
+}
+
+.modal-content p {
+    line-height: 1.6;
+    color: var(--muted);
+}
+
+.confidence-badge {
+    margin-top: 10px;
+    display: inline-block;
+    background: #ecfeff;
+    color: #0f766e;
+    padding: 8px 10px;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+.loading {
+    color: var(--muted);
+    padding: 8px 0;
+}
+
+@media (max-width: 900px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+    }
+
+    #sendBtn,
+    .secondary-btn {
+        width: 100%;
+    }
+}
