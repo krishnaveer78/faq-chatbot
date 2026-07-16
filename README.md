@@ -142,7 +142,7 @@ faq-chatbot/
 
 6. **Open your browser:**
    ```
-   http://localhost:5000
+   https://krishnaveer78.github.io/faq-chatbot/
    ```
 
 ## 🎯 How It Works
