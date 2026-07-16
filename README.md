@@ -2,12 +2,29 @@
 
 A powerful **FAQ Chatbot** that uses NLP and machine learning to intelligently match user questions with the most relevant FAQ answers in real-time.
 
+<<<<<<< HEAD
 ## 🌟 Features
 
 ✅ **Natural Language Processing** - Uses NLTK for advanced text preprocessing (tokenization, lemmatization, stopword removal)
+=======
+**View on GitHub**: [https://github.com/krishnaveer78/faq_chatbot_project](https://github.com/krishnaveer78/faq_chatbot_project)  
+**Clone URL**: [https://github.com/krishnaveer78/faq_chatbot_project.git](https://github.com/krishnaveer78/faq_chatbot_project.git)  
+**Author**: [@krishnaveer78](https://github.com/krishnaveer78)
+
+> Note: This project uses a Flask backend and runs locally in your browser. You do not need to upload documentation or the app to GitHub in order to use it.
+> 
+> To view in your browser, run `python app.py` and open `http://localhost:5000`.
+> 
+> GitHub Pages cannot host this Flask app because it only supports static sites.
+> 
+> For a live public URL, deploy the app to a Python-capable host such as Render, Replit, Heroku, Railway, or Fly.io. After deployment, the host will provide a live browser link you can share with others.
+
+## Features
+>>>>>>> e5fb542 (Add GitHub Pages deployment files)
 
 ✅ **Intelligent Matching** - TF-IDF vectorization + Cosine similarity for accurate FAQ matching
 
+<<<<<<< HEAD
 ✅ **Beautiful Web UI** - Modern, responsive chat interface with gradient design
 
 ✅ **Real-time Suggestions** - Displays relevant FAQ suggestions as you type
@@ -32,6 +49,39 @@ A powerful **FAQ Chatbot** that uses NLP and machine learning to intelligently m
 > **Want to test locally?** Follow the Quick Start section below!
 
 ## 📋 Project Structure
+=======
+## Deploying Live
+
+This Flask app can be deployed to any Python-friendly host. GitHub Pages is not supported because it only serves static sites.
+
+### Recommended hosts
+- Render
+- Heroku
+- Railway
+- Replit
+- Fly.io
+
+### Deployment files included
+- `requirements.txt` — Python dependencies including `gunicorn`
+- `Procfile` — Heroku/Render process definition
+- `runtime.txt` — Python runtime version for deployment
+
+### Example deploy commands for Heroku
+```bash
+git push origin main
+heroku create
+git push heroku main
+```
+
+### Example Render setup
+- Create a new Web Service
+- Set build command: `pip install -r requirements.txt`
+- Set start command: `gunicorn app:app`
+
+After deployment, the host will give you a public URL to share with others.
+
+## Project Structure
+>>>>>>> e5fb542 (Add GitHub Pages deployment files)
 
 ```
 faq-chatbot/
@@ -286,10 +336,15 @@ pip install -r requirements.txt --force-reinstall
 
 ### Deploy to Heroku
 
+<<<<<<< HEAD
 1. Create a `Procfile`:
    ```
    web: gunicorn app.main:app
    ```
+=======
+🔗 **Repository**: [github.com/krishnaveer78/faq_chatbot_project](https://github.com/krishnaveer78/faq_chatbot_project)  
+🔗 **GitHub Profile**: [github.com/krishnaveer78](https://github.com/krishnaveer78)
+>>>>>>> e5fb542 (Add GitHub Pages deployment files)
 
 2. Install Gunicorn:
    ```bash
